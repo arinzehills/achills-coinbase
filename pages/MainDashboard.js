@@ -7,7 +7,7 @@ import Side from "../components/Side";
 import { ethers } from "ethers";
 import { ThirdwebSDK } from "@3rdweb/sdk";
 
-const Dashboard = ({ address }) => {
+const MainDashboard = ({ address }) => {
   const [sanityTokens, setSanityTokens] = useState([]);
   const [thirdWebTokens, setThirdWebTokens] = useState([]);
 
@@ -54,7 +54,7 @@ const Dashboard = ({ address }) => {
   );
 };
 
-export default Dashboard;
+export default MainDashboard;
 
 const Wrapper = styled.div`
   display: flex;

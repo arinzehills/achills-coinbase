@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { useWeb3 } from "@3rdweb/hooks";
 import { keyframes } from "styled-components";
 import { ConnectWallet } from "@3rdweb/react";
-import Dashboard from "./dashboard";
+import MainDashboard from "./MainDashboard";
 export default function Home() {
   const { address, connectWallet } = useWeb3();
 
@@ -20,7 +20,7 @@ export default function Home() {
     // }}
     >
       {address ? (
-        <Dashboard address={address} />
+        <MainDashboard address={address} />
       ) : (
         <WalletConnect>
           <AnimatedGradientText>
