@@ -24,7 +24,7 @@ export default function Home() {
       ) : (
         <WalletConnect>
           <AnimatedGradientText>
-            Hi, I'm Alexander,Welcome to the achills coinbase platform
+            Hi, I am Arinze Chris Hills,Welcome to the achills coinbase platform
           </AnimatedGradientText>
           <img src="/images/manwithpc.png" height={"242px"} />
           <h1>Welcome to the achills coinbase platform </h1>
