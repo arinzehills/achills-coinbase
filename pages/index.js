@@ -38,7 +38,8 @@ export default function Home() {
             Connect Wallet
           </Button>
           <Details>
-            You need to have metamask to be able to run this app
+            You need to have Metamask and be on Chrome to be able to run this
+            app
           </Details>
         </WalletConnect>
       )}
@@ -93,5 +94,5 @@ const Details = styled.div`
   text-align: center;
   margin-top: 1rem;
   font-weight: 500;
-  color: #282b2f;
+  color: #63686f;
 `;
