@@ -19,7 +19,7 @@ export default function Home() {
     //   alignContent: "center",
     // }}
     >
-      {address ? (
+      {!address ? (
         <MainDashboard address={address} />
       ) : (
         <WalletConnect>
